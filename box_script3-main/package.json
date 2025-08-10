@@ -1,0 +1,18 @@
+{
+  "name": "box_script3-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo kupo",
+    "start": "node src/index"
+  },
+  "author": "EdelweissPirate",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "ffmpeg": "^0.0.4",
+    "puppeteer": "^13.1.1",
+    "puppeteer-screen-recorder": "^2.0.2"
+  }
+}

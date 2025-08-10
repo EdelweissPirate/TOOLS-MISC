@@ -1,0 +1,19 @@
+{
+  "name": "thermoimagepixelreader_new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mapTemps": "node ./tools/calcTemps",
+    "mapHeatColours": "node ./tools/pixelReader_heatMap",
+    "mapSpanColours": "node ./tools/pixelReader_span",
+    "arrange": "node ./tools/arrangeTemps.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jimp": "^0.22.10"
+  }
+}

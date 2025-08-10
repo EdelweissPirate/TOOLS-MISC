@@ -1,0 +1,1 @@
+ffmpeg -r 24 -f image2 -s 1200x1200 -i images/*.png -vcodec libx264 -crf 25  -pix_fmt yuv720p test.mp4

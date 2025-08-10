@@ -1,0 +1,1 @@
+ffmpeg -r 10 -f image2 -s 480x270 -i images/%04d.png -vcodec libx264 -crf 25  -pix_fmt yuv420p output/test.mp4
